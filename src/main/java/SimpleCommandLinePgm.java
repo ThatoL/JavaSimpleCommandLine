@@ -6,7 +6,7 @@ public class SimpleCommandLinePgm {
         System.out.println("CLA Program");
         System.out.println("The CLA for the program are: ");
         for (String str: args) {
-            System.out.println(args);
+            System.out.println(str);
         }
         System.out.println("success");
     }
